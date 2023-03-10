@@ -1,0 +1,53 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	background: #383838;
+}
+.box 
+{	
+	display: flex;
+	padding: 50px;
+	position: relative;
+	width: 45%;
+	height: 450px;
+	background: #737373;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.tableProduct{
+	
+    overflow-y: scroll;
+	margin-left: 50px;
+	padding: 10px;
+	width: 250px;
+	height: 200px;
+	display: flex;
+	border: 1px #999999 solid;
+	float: right;
+}
+.profileOut{color: #000;
+    text-decoration: none;
+    padding: 5px 50px;
+    margin-top: 40px;
+    position: absolute;
+    background-color:#737373 ;
+    z-index: 4;
+    border-radius: 20px;
+    border: 1px #383838 solid;
+    cursor: pointer;
+	margin-top: 335px;
+}
+.profileOut:hover{
+    background-color: #888888;
+}
